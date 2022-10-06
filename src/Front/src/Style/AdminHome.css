@@ -1,0 +1,57 @@
+
+
+
+.date{
+    width: 50vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    z-index: 10;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.date h1{
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 20px;
+    height: 40px;
+    padding: 10px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(246, 241, 241, 0.2);
+    box-shadow: 0.1em 0.5em 0.5em 0.5em rgba(0,0,0,0.5);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005)
+}
+    .date h2{
+        transition: 0.5s;
+        cursor: pointer;
+        margin: 20px;
+        height: 40px;
+        padding: 10px;
+        width: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255,255,255,0.2);
+        box-shadow: 0.1em 0.5em 0.5em 0.5em rgba(0,0,0,0.5);
+        -webkit-box-reflect: below 1px linear-gradient(transparent, #0005)
+    }
+
+    .date h1:hover{
+        transform: translateY(-10px)
+    }
+
+    .date h2:hover{
+        transform: translateY(-10px)
+    }
+    
+    
+
